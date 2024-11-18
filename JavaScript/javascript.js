@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const dateDisplayElement = document.getElementById("date-display");
 
     if (dateDisplayElement) {
-        if (dayOfWeek >= 0 & dayOfWeek <= 5) {
+        if (dayOfWeek >= 1 & dayOfWeek <= 5) {
             dateDisplayElement.textContent = `Hoje é ${formattedDate} - Estamos Abertos!`;
         } else {
             dateDisplayElement.textContent = `Hoje é ${formattedDate} - Estamos Fechados!`;
