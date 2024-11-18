@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+    
+    background-color:#F2F3F4;
+    font-family: 'Host Grotesk', 'Times New Roman', Times, serif;
+    
+}
+
+img{
+
+    display: flex;
+    width: 40%;
+
+
+}
+
+
+section{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+
+}
+
+h1{
+
+    font-size: xx-large;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+nav{
+    font-size: x-large;
+    background-color: #FFD580;
+    border-style: dashed;
+    border-color: white;
+    border: 2px solid black;
+    padding-left: 1%;
+    padding-bottom: 2.5%;
+    
+}
+
+footer{
+
+    background-color: #FFD580;
+    font-size: larger;
+    border-style: dashed;
+    border-color: white;
+    border: 2px solid black;
+    margin-top: 3%;
+    padding-left: 1%;
+}
+
+#date-display{
+    display: flex;
+    font-size: x-large;
+    justify-content: end;
+
+
+}
